@@ -7,12 +7,12 @@
 package main
 
 import (
-	"gitee.com/geekbang/basic-go/webook/internal/repository"
-	"gitee.com/geekbang/basic-go/webook/internal/repository/cache"
-	"gitee.com/geekbang/basic-go/webook/internal/repository/dao"
-	"gitee.com/geekbang/basic-go/webook/internal/service"
-	"gitee.com/geekbang/basic-go/webook/internal/web"
-	"gitee.com/geekbang/basic-go/webook/ioc"
+	"webook/internal/repository"
+	"webook/internal/repository/cache"
+	"webook/internal/repository/dao"
+	"webook/internal/service"
+	"webook/internal/web"
+	"webook/ioc"
 	"github.com/gin-gonic/gin"
 )
 

@@ -1,8 +1,8 @@
 package ioc
 
 import (
-	"gitee.com/geekbang/basic-go/webook/config"
 	"github.com/redis/go-redis/v9"
+	"webook/config"
 )
 
 func InitRedis() redis.Cmdable {

@@ -3,14 +3,14 @@ package service
 import (
 	"context"
 	"errors"
-	"gitee.com/geekbang/basic-go/webook/internal/domain"
-	"gitee.com/geekbang/basic-go/webook/internal/repository"
-	repomocks "gitee.com/geekbang/basic-go/webook/internal/repository/mocks"
 	"github.com/stretchr/testify/assert"
 	"go.uber.org/mock/gomock"
 	"golang.org/x/crypto/bcrypt"
 	"testing"
 	"time"
+	"webook/internal/domain"
+	"webook/internal/repository"
+	repomocks "webook/internal/repository/mocks"
 )
 
 func Test_userService_Login(t *testing.T) {

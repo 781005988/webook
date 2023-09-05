@@ -8,7 +8,7 @@ import (
 	context "context"
 	reflect "reflect"
 
-	dao "gitee.com/geekbang/basic-go/webook/internal/repository/dao"
+	dao "webook/internal/repository/dao"
 	gomock "go.uber.org/mock/gomock"
 )
 

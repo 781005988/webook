@@ -5,8 +5,8 @@ import (
 	_ "embed"
 	"errors"
 	"fmt"
+	"github.com/patrickmn/go-cache"
 	"github.com/redis/go-redis/v9"
-	"github.com/rogpeppe/go-internal/cache"
 	"sync"
 	"time"
 )

@@ -4,15 +4,15 @@ import (
 	"context"
 	"database/sql"
 	"errors"
-	"gitee.com/geekbang/basic-go/webook/internal/domain"
-	"gitee.com/geekbang/basic-go/webook/internal/repository/cache"
-	cachemocks "gitee.com/geekbang/basic-go/webook/internal/repository/cache/mocks"
-	"gitee.com/geekbang/basic-go/webook/internal/repository/dao"
-	daomocks "gitee.com/geekbang/basic-go/webook/internal/repository/dao/mocks"
 	"github.com/stretchr/testify/assert"
 	"go.uber.org/mock/gomock"
 	"testing"
 	"time"
+	"webook/internal/domain"
+	"webook/internal/repository/cache"
+	cachemocks "webook/internal/repository/cache/mocks"
+	"webook/internal/repository/dao"
+	daomocks "webook/internal/repository/dao/mocks"
 )
 
 func TestCachedUserRepository_FindById(t *testing.T) {

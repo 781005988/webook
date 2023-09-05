@@ -1,10 +1,10 @@
 package ioc
 
 import (
-	"gitee.com/geekbang/basic-go/webook/config"
-	"gitee.com/geekbang/basic-go/webook/internal/repository/dao"
 	"gorm.io/driver/mysql"
 	"gorm.io/gorm"
+	"webook/config"
+	"webook/internal/repository/dao"
 )
 
 func InitDB() *gorm.DB {

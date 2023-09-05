@@ -3,11 +3,11 @@ package cache
 import (
 	"context"
 	"errors"
-	"gitee.com/geekbang/basic-go/webook/internal/repository/cache/redismocks"
 	"github.com/redis/go-redis/v9"
 	"github.com/stretchr/testify/assert"
 	"go.uber.org/mock/gomock"
 	"testing"
+	"webook/internal/repository/cache/redismocks"
 )
 
 func TestRedisCodeCache_Set(t *testing.T) {

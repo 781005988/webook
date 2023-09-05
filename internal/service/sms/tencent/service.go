@@ -3,10 +3,10 @@ package tencent
 import (
 	"context"
 	"fmt"
-	mysms "gitee.com/geekbang/basic-go/webook/internal/service/sms"
 	"github.com/ecodeclub/ekit"
 	"github.com/ecodeclub/ekit/slice"
 	sms "github.com/tencentcloud/tencentcloud-sdk-go/tencentcloud/sms/v20210111"
+	mysms "webook/internal/service/sms"
 )
 
 type Service struct {

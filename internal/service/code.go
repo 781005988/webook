@@ -3,9 +3,9 @@ package service
 import (
 	"context"
 	"fmt"
-	"gitee.com/geekbang/basic-go/webook/internal/repository"
-	"gitee.com/geekbang/basic-go/webook/internal/service/sms"
 	"math/rand"
+	"webook/internal/repository"
+	"webook/internal/service/sms"
 )
 
 const codeTplId = "1877556"
